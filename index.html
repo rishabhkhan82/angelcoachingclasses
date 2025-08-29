@@ -55,7 +55,10 @@
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
-    <style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+   <style>
         body {
             font-family: 'Inter', sans-serif;
         }
@@ -684,17 +687,17 @@
                 <div data-aos="zoom-in" class="grid sm:grid-cols-3 gap-5">
                     <div
                         class="rounded-2xl p-6 text-center border border-gray-100 dark:border-white/10 bg-white dark:bg-white/[0.04] shadow-card">
-                        <p id="learners" class="text-4xl font-extrabold text-brand-600">12k+</p>
+                        <p id="learners" class="text-4xl font-extrabold text-brand-600"><span class="counter">12</span>k+</p>
                         <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">Learners</p>
                     </div>
                     <div
                         class="rounded-2xl p-6 text-center border border-gray-100 dark:border-white/10 bg-white dark:bg-white/[0.04] shadow-card">
-                        <p id="reported" class="text-4xl font-extrabold text-accent-600">98%</p>
+                        <p id="reported" class="text-4xl font-extrabold text-accent-600"><span class="counter">98</span>%</p>
                         <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">Reported Confidence Lift</p>
                     </div>
                     <div
                         class="rounded-2xl p-6 text-center border border-gray-100 dark:border-white/10 bg-white dark:bg-white/[0.04] shadow-card">
-                        <p id="countries" class="text-4xl font-extrabold text-pink-600">54+</p>
+                        <p id="countries" class="text-4xl font-extrabold text-pink-600"><span class="counter">54</span>+</p>
                         <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">Countries</p>
                     </div>
                 </div>
@@ -828,7 +831,7 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p class="font-semibold text-lg">12,000+</p>
+                                    <p class="font-semibold text-lg"><span class="counter">12,000</span>+</p>
                                     <p class="text-sm text-gray-600 dark:text-gray-400">Voices Transformed</p>
                                 </div>
                             </div>
@@ -845,7 +848,7 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p class="font-semibold text-lg">98%</p>
+                                    <p class="font-semibold text-lg"><span class="counter">98</span>%</p>
                                     <p class="text-sm text-gray-600 dark:text-gray-400">Success Rate</p>
                                 </div>
                             </div>
@@ -862,7 +865,7 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p class="font-semibold text-lg">35+</p>
+                                    <p class="font-semibold text-lg"><span class="counter">35</span>+</p>
                                     <p class="text-sm text-gray-600 dark:text-gray-400">Countries Reached</p>
                                 </div>
                             </div>
@@ -879,7 +882,7 @@
                                     </svg>
                                 </span>
                                 <div>
-                                    <p class="font-semibold text-lg">10</p>
+                                    <p class="font-semibold text-lg"><span class="counter">10</span></p>
                                     <p class="text-sm text-gray-600 dark:text-gray-400">Years of Excellence</p>
                                 </div>
                             </div>
@@ -1093,28 +1096,28 @@
                 <div class="h-16 w-16 rounded-2xl bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-200 flex items-center justify-center mx-auto mb-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 </div>
-                <p class="text-2xl font-bold text-gray-900 dark:text-white">500+</p>
+                <p class="text-2xl font-bold text-gray-900 dark:text-white"><span class="counter">500</span>+</p>
                 <p class="text-sm text-gray-600 dark:text-gray-400">Sessions Captured</p>
             </div>
             <div class="text-center">
                 <div class="h-16 w-16 rounded-2xl bg-accent-400/20 text-accent-600 dark:text-accent-400 dark:bg-accent-600/10 flex items-center justify-center mx-auto mb-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
                 </div>
-                <p class="text-2xl font-bold text-gray-900 dark:text-white">50+</p>
+                <p class="text-2xl font-bold text-gray-900 dark:text-white"><span class="counter">50</span>+</p>
                 <p class="text-sm text-gray-600 dark:text-gray-400">Cities Reached</p>
             </div>
             <div class="text-center">
                 <div class="h-16 w-16 rounded-2xl bg-pink-100 text-pink-700 dark:bg-pink-900/30 dark:text-pink-300 flex items-center justify-center mx-auto mb-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 </div>
-                <p class="text-2xl font-bold text-gray-900 dark:text-white">1000+</p>
+                <p class="text-2xl font-bold text-gray-900 dark:text-white"><span class="counter">1000</span>+</p>
                 <p class="text-sm text-gray-600 dark:text-gray-400">Happy Moments</p>
             </div>
             <div class="text-center">
                 <div class="h-16 w-16 rounded-2xl bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300 flex items-center justify-center mx-auto mb-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 </div>
-                <p class="text-2xl font-bold text-gray-900 dark:text-white">10</p>
+                <p class="text-2xl font-bold text-gray-900 dark:text-white"><span class="counter">10</span></p>
                 <p class="text-sm text-gray-600 dark:text-gray-400">Years of Memories</p>
             </div>
         </div>
@@ -1490,6 +1493,15 @@
             const status = document.getElementById('form-status');
             status.textContent = 'Thanks—your message has been received.';
         });
+
+        // Counter
+        $(document).ready(function() {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
     </script>
 </body>
 
